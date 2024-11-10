@@ -1,0 +1,109 @@
+@media (max-width: 1024px) {
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+  }
+  header .logo {
+    padding: 0;
+    margin-bottom: 1rem;
+  }
+  header nav ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+  header nav ul li {
+    border: none;
+  }
+  header .number {
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 0.5rem;
+  }
+
+  /* Main Section */
+  .background {
+    margin-top: 11.6rem;
+    height: 30rem;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  .title {
+    font-size: 2.5rem;
+  }
+  .paragraph {
+    font-size: 1.2rem;
+  }
+
+  /* Content Boxes */
+  .content-box {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .box {
+    width: 100%;
+    margin: 2rem auto;
+  }
+
+  /* Travel Section */
+  .content-travel {
+    margin: 0;
+    text-align: center;
+  }
+  .content-travel img {
+    width: 120px;
+    height: auto;
+  }
+  .content-travel h2 {
+    font-size: 2rem;
+  }
+  .content-travel p {
+    font-size: 1rem;
+  }
+  .content-travel a {
+    font-size: 1.2rem;
+  }
+
+  /* Orders Section */
+  .content-order {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .order {
+    width: 90%;
+    padding: 2rem 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  header nav ul {
+    gap: 0.5rem;
+  }
+  .background {
+    margin-top: 10.1rem;
+  }
+
+  footer .content-center {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+  footer .content-center nav {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  footer .content-center .information,
+  footer .content-center .sign-up {
+    text-align: center;
+    padding: 0;
+  }
+  footer .content-center .logo-end {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+}

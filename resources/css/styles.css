@@ -1,0 +1,369 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 16px;
+}
+body {
+  background: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(22, 97, 131);
+  height: 6.013rem;
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+header .logo {
+  padding-right: 4rem;
+}
+header .logo img {
+  width: 14.75rem;
+  height: 4.875rem;
+}
+nav {
+  padding-right: 1rem;
+}
+header nav ul li {
+  display: inline;
+  border-right: 1px solid white;
+  padding: 0 2rem;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+header nav ul li a:hover {
+  color: rgb(234, 198, 128);
+}
+.last {
+  border-right: none;
+}
+.number {
+  color: rgb(91, 201, 222);
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+/*Main*/
+main {
+  padding-top: 6.02rem;
+}
+.background {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 100%;
+  height: 50.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+.title {
+  color: white;
+  font-size: 3.625rem;
+  line-height: 6.063rem;
+  letter-spacing: 0.58rem;
+}
+.paragraph {
+  color: rgb(234, 198, 128);
+  font-size: 1.688rem;
+  letter-spacing: 0.1rem;
+}
+
+.content-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+.box {
+  max-width: 19.625rem;
+  height: auto;
+  background: rgb(39, 114, 147);
+  margin: 5.669rem 0.188rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1.2rem;
+}
+.box .img1 {
+  width: 100%;
+}
+.box .img2 {
+  width: 11.296rem;
+  height: 11.296rem;
+  margin-top: -6.2rem;
+}
+.box .info {
+  padding: 2rem;
+}
+.info {
+  margin-top: -2rem;
+}
+.info h4 {
+  color: white;
+  font-size: 2.063rem;
+  line-height: 2.125rem;
+  float: right;
+  font-weight: 700;
+  letter-spacing: 0.4rem;
+  margin-bottom: 0.7rem;
+}
+.info p {
+  color: white;
+  line-height: 1.375rem;
+  font-weight: 200;
+  opacity: 0.6;
+  font-size: 1.06rem;
+  width: 86%;
+  margin: 0 auto;
+  margin-bottom: 1.6rem;
+}
+.info a {
+  background-color: rgb(234, 198, 128);
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 2rem;
+  box-shadow: 0 3px 0 hsl(194, 59%, 30%);
+  font-size: 1rem;
+  font-weight: 600;
+}
+.info a:hover {
+  background-color: rgb(127, 204, 247);
+  transition-duration: 700ms;
+}
+
+/*Section travel*/
+.travel {
+  background-image: url("../images/background-travel.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 32.875rem;
+}
+.content-travel {
+  display: flex;
+  flex-direction: column;
+  margin-right: 16rem;
+  color: white;
+}
+.content-travel img {
+  width: 161px;
+  height: 157.81px;
+}
+.content-travel h2 {
+  font-family: "Lexend", sans-serif;
+  font-size: 43px;
+  letter-spacing: 0.3rem;
+  margin-top: 0.8rem;
+  line-height: 5rem;
+}
+.content-travel p {
+  font-family: "Lexend", sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  opacity: 0.9;
+}
+.content-travel a {
+  width: 132px;
+  background-color: rgb(234, 198, 128);
+  padding: 0.16rem 0;
+  text-decoration: none;
+  margin-top: 1.8rem;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-weight: 400;
+  font-size: 25px;
+  color: white;
+}
+.content-travel a:hover {
+  background: rgb(127, 204, 247);
+  transition: 0.4s ease;
+}
+
+.orders {
+  background-image: url("../images/background-order.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 765px;
+}
+
+.content-order {
+  display: flex;
+  width: 980px;
+  text-align: center;
+}
+
+.order {
+  width: 50%;
+  text-align: center;
+  padding: 6rem 1rem;
+  color: white;
+}
+
+.order-1 {
+  background: rgb(22, 97, 131);
+}
+.order h3 {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 33px;
+  text-align: center;
+  font-family: "Lexend", sans-serif;
+  letter-spacing: 0.18rem;
+  font-weight: 700;
+}
+.order p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  opacity: 0.9;
+  margin-top: 1rem;
+  margin-bottom: 1.9rem;
+}
+
+.order a {
+  background-color: rgb(234, 198, 128);
+  padding: 0.16rem 3.1rem;
+  text-decoration: none;
+  font-family: "Dancing Script", cursive;
+  font-weight: 400;
+  font-size: 25px;
+  color: white;
+}
+.order a:hover {
+  background: rgb(127, 204, 247);
+  transition: 0.4s ease;
+}
+
+.order-2 {
+  color: rgb(22, 97, 131);
+  background: #fff;
+}
+
+.order-2 a {
+  box-shadow: 0 3.1px 0 hsl(194, 59%, 30%);
+  padding: 0.16rem 2rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  height: 357.4px;
+  background-color: rgb(22, 97, 131);
+  border-top: 3px solid white;
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+footer nav ul li {
+  display: inline;
+  border-right: 1px solid white;
+  padding: 0 2rem;
+}
+footer nav ul li a {
+  text-decoration: none;
+  color: rgb(91, 201, 222);
+  font-size: 15px;
+}
+footer nav ul li a:hover {
+  color: rgb(234, 198, 128);
+}
+
+.content-center {
+  display: grid;
+  grid-template: 1fr 4fr / repeat(3, 1fr);
+  padding-top: 1.7rem;
+}
+.content-center nav {
+  grid-column: span 3;
+}
+.content-center .information {
+  margin-top: 2rem;
+  padding-left: 2rem;
+  max-width: 100%;
+}
+
+.content-center div {
+  padding: 0 4rem;
+}
+.content-center p {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 0.2rem;
+  font-weight: bold;
+}
+.content-center .sign-up {
+  color: white;
+  margin-top: 2.2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sign-up h3 {
+  letter-spacing: 3px;
+  text-align: center;
+}
+.sign-up a {
+  background: rgb(234, 198, 128);
+  padding: 0.5rem 2rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.sign-up a:hover {
+  background: rgb(127, 204, 247);
+  transition: 0.4s ease;
+}
+
+.content-center .logo-end {
+  padding-left: 5rem;
+}
+.content-center img {
+  width: 199px;
+  height: 198px;
+}
+
+.container-buttons {
+  margin-top: 1rem;
+}
+.button-footer {
+  font-size: 1em;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
